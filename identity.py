@@ -1,11 +1,11 @@
-x = 1000
+x = 9
 y = x
 if (x is y):
     print('x is y')
 else:
     print('x is NOT y')
 
-z = 1000
+z = 9
 if (z is y):
     print('z is y')
 else:
