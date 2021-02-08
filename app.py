@@ -1,12 +1,7 @@
-x = 1000
-y = x
-if (x is y):
-    print('x is y')
-else:
-    print('x is NOT y')
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+c = list(set([val for val in a if val in b]))
+print(c)
 
-z = 1000
-if (z is y):
-    print('z is y')
-else:
-    print('z is NOT y')
+s = "abc"
+print(s.upper())
